@@ -1,11 +1,11 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import "./styles/global.css";
-import "./styles/math.css";
-import { Index } from "./guides/Index";
+import "../../styles/global.css";
+import "../../styles/math.css";
+import { SylowGuide } from "./SylowGuide";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <Index />
+    <SylowGuide />
   </StrictMode>,
 );
