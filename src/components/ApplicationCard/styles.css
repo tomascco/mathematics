@@ -1,0 +1,41 @@
+.app {
+  background: var(--color-paper);
+  border: 1px solid var(--color-rule);
+  border-left: 3px solid var(--color-moss);
+  padding: 24px 28px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.app-num {
+  position: absolute;
+  top: -16px;
+  left: 18px;
+  background: var(--color-moss);
+  color: var(--color-paper);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: var(--size-subtitle);
+  border-radius: 50%;
+}
+
+.app-title {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: var(--size-title-sm);
+  margin-bottom: 10px;
+  margin-left: 26px;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .app {
+    padding: 20px 16px;
+  }
+}

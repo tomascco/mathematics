@@ -1,0 +1,26 @@
+.corollary {
+  border-left: 1px solid var(--color-moss);
+  padding: 4px 0 4px 14px;
+  margin: 14px 0 14px 8px;
+  font-size: var(--size-body);
+  line-height: 1.55;
+}
+
+.corollary-tag {
+  font-family: var(--font-label);
+  font-size: var(--size-label);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  font-weight: var(--weight-label);
+  color: var(--color-moss);
+  margin-right: 10px;
+}
+
+.corollary-body {
+  color: var(--color-ink);
+}
+
+.corollary-body p {
+  display: inline;
+  max-width: none;
+}

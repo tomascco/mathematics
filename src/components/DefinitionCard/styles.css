@@ -1,0 +1,64 @@
+.def {
+  background: var(--color-paper);
+  border: 1px solid var(--color-rule);
+  padding: 28px 32px;
+  margin: 24px 0;
+  position: relative;
+}
+
+.def-tag {
+  position: absolute;
+  top: -11px;
+  left: 24px;
+  padding: 3px 14px;
+  font-family: var(--font-label);
+  font-size: var(--size-label);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  font-weight: var(--weight-label);
+}
+
+.def-tag-default {
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+
+.def-tag-moss {
+  background: var(--color-moss);
+  color: var(--color-paper);
+}
+
+.def-title {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: var(--size-title-lg);
+  margin-bottom: 10px;
+  color: var(--color-ember);
+  font-weight: 500;
+}
+
+.def-default .def-title {
+  color: var(--color-ember);
+}
+
+.def-moss .def-title {
+  color: var(--color-moss);
+}
+
+.def-body {
+  font-size: var(--size-body);
+}
+
+.def-body p {
+  max-width: none;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .def {
+    padding: 20px 16px;
+  }
+  .def-tag {
+    left: 16px;
+  }
+}

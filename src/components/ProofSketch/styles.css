@@ -1,0 +1,21 @@
+.sketch {
+  border: 1px dashed var(--color-muted);
+  padding: 18px 24px;
+  margin: 16px 0;
+  font-size: var(--size-small);
+  background: var(--color-surface-faint);
+}
+
+.sketch-tag {
+  font-family: var(--font-label);
+  font-size: var(--size-label);
+  letter-spacing: var(--tracking-label);
+  color: var(--color-muted);
+  margin-bottom: 6px;
+  font-weight: var(--weight-label);
+  text-transform: uppercase;
+}
+
+.sketch p {
+  max-width: none;
+}

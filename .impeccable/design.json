@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-05-09T00:00:00Z",
+  "title": "Design System: Press Room",
+  "extensions": {
+    "colorMeta": {
+      "ember": {
+        "role": "primary",
+        "displayName": "Ember",
+        "canonical": "oklch(54% 0.17 27)",
+        "tonalRamp": [
+          "oklch(20% 0.08 27)",
+          "oklch(30% 0.12 27)",
+          "oklch(40% 0.15 27)",
+          "oklch(50% 0.17 27)",
+          "oklch(54% 0.17 27)",
+          "oklch(60% 0.15 27)",
+          "oklch(70% 0.11 27)",
+          "oklch(85% 0.06 27)",
+          "oklch(95% 0.02 27)"
+        ]
+      },
+      "moss": {
+        "role": "secondary",
+        "displayName": "Moss",
+        "canonical": "oklch(42% 0.08 155)",
+        "tonalRamp": [
+          "oklch(15% 0.04 155)",
+          "oklch(25% 0.06 155)",
+          "oklch(35% 0.08 155)",
+          "oklch(42% 0.08 155)",
+          "oklch(50% 0.08 155)",
+          "oklch(58% 0.07 155)",
+          "oklch(68% 0.06 155)",
+          "oklch(82% 0.04 155)",
+          "oklch(94% 0.01 155)"
+        ]
+      },
+      "gilt": {
+        "role": "secondary",
+        "displayName": "Gilt",
+        "canonical": "oklch(76% 0.13 85)",
+        "tonalRamp": [
+          "oklch(25% 0.06 85)",
+          "oklch(38% 0.10 85)",
+          "oklch(50% 0.12 85)",
+          "oklch(62% 0.13 85)",
+          "oklch(76% 0.13 85)",
+          "oklch(82% 0.10 85)",
+          "oklch(88% 0.07 85)",
+          "oklch(93% 0.04 85)",
+          "oklch(97% 0.01 85)"
+        ]
+      },
+      "slate-blue": {
+        "role": "secondary",
+        "displayName": "Slate-Blue",
+        "canonical": "oklch(50% 0.09 265)",
+        "tonalRamp": [
+          "oklch(15% 0.04 265)",
+          "oklch(25% 0.06 265)",
+          "oklch(35% 0.08 265)",
+          "oklch(50% 0.09 265)",
+          "oklch(58% 0.08 265)",
+          "oklch(65% 0.07 265)",
+          "oklch(75% 0.05 265)",
+          "oklch(87% 0.03 265)",
+          "oklch(95% 0.01 265)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(12% 0.02 60)",
+        "tonalRamp": [
+          "oklch(5% 0.01 60)",
+          "oklch(8% 0.015 60)",
+          "oklch(12% 0.02 60)",
+          "oklch(20% 0.02 60)",
+          "oklch(30% 0.02 60)",
+          "oklch(40% 0.02 60)",
+          "oklch(55% 0.015 60)",
+          "oklch(75% 0.008 60)",
+          "oklch(92% 0.004 60)"
+        ]
+      },
+      "parchment": {
+        "role": "neutral",
+        "displayName": "Parchment",
+        "canonical": "oklch(96% 0.005 80)",
+        "tonalRamp": [
+          "oklch(20% 0.005 80)",
+          "oklch(40% 0.005 80)",
+          "oklch(60% 0.005 80)",
+          "oklch(75% 0.005 80)",
+          "oklch(85% 0.005 80)",
+          "oklch(90% 0.005 80)",
+          "oklch(94% 0.005 80)",
+          "oklch(96% 0.005 80)",
+          "oklch(98% 0.004 80)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "oklch(98% 0.004 80)",
+        "tonalRamp": [
+          "oklch(25% 0.004 80)",
+          "oklch(45% 0.004 80)",
+          "oklch(65% 0.004 80)",
+          "oklch(78% 0.004 80)",
+          "oklch(87% 0.004 80)",
+          "oklch(92% 0.004 80)",
+          "oklch(95% 0.004 80)",
+          "oklch(98% 0.004 80)",
+          "oklch(99.5% 0.002 80)"
+        ]
+      },
+      "soft": {
+        "role": "neutral",
+        "displayName": "Soft",
+        "canonical": "oklch(90% 0.008 75)",
+        "tonalRamp": [
+          "oklch(15% 0.004 75)",
+          "oklch(30% 0.006 75)",
+          "oklch(50% 0.007 75)",
+          "oklch(65% 0.008 75)",
+          "oklch(78% 0.008 75)",
+          "oklch(90% 0.008 75)",
+          "oklch(94% 0.006 75)",
+          "oklch(97% 0.004 75)",
+          "oklch(99% 0.002 75)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "oklch(47% 0.02 60)",
+        "tonalRamp": [
+          "oklch(8% 0.01 60)",
+          "oklch(15% 0.012 60)",
+          "oklch(25% 0.015 60)",
+          "oklch(35% 0.018 60)",
+          "oklch(47% 0.02 60)",
+          "oklch(58% 0.018 60)",
+          "oklch(70% 0.014 60)",
+          "oklch(85% 0.008 60)",
+          "oklch(95% 0.004 60)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "canonical": "oklch(16% 0.02 60)",
+        "tonalRamp": [
+          "oklch(5% 0.015 60)",
+          "oklch(10% 0.018 60)",
+          "oklch(16% 0.02 60)",
+          "oklch(25% 0.02 60)",
+          "oklch(35% 0.02 60)",
+          "oklch(50% 0.018 60)",
+          "oklch(65% 0.012 60)",
+          "oklch(80% 0.008 60)",
+          "oklch(93% 0.004 60)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Masthead titles only. Extreme contrast."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings (h2). Italic accent words in Ember."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Subsection headings (h3), definition card titles, intuition titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running prose. Capped at 65-75ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Stamped metadata: chapter marks, object tags, proof labels. Always uppercase, track-spaced."
+      },
+      "mono": {
+        "displayName": "Mono",
+        "purpose": "Tables, factorizations, code, number pickers. Tabular data."
+      },
+      "math": {
+        "displayName": "Math",
+        "purpose": "All mathematical notation via KaTeX. Inline aligns to Body baseline; display math centered in block."
+      }
+    },
+    "shadows": [
+      {
+        "name": "stamp",
+        "value": "4px 4px 0 #2a221c",
+        "purpose": "Definition cards and application cards. Hard letterpress offset."
+      },
+      {
+        "name": "deep-stamp",
+        "value": "6px 6px 0 rgba(26,22,18,0.08)",
+        "purpose": "Interactive panels. Softer, wider letterpress offset for floating surfaces."
+      },
+      {
+        "name": "theorem-offset",
+        "value": "8px 8px 0 #2a221c",
+        "purpose": "Theorem blocks via ::before pseudo-element. Doubled plane effect."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-press",
+        "value": "cubic-bezier(0.22, 0.68, 0.35, 1.0)",
+        "purpose": "Button press-in and toggle transitions. Feels like pressing a stamp."
+      },
+      {
+        "name": "ease-reveal",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Content reveal and section entrance. Fast start, gentle settle."
+      },
+      {
+        "name": "duration-instant",
+        "value": "0ms",
+        "purpose": "Color changes, opacity toggles."
+      },
+      {
+        "name": "duration-press",
+        "value": "180ms",
+        "purpose": "Button and interactive state transitions."
+      },
+      {
+        "name": "duration-reveal",
+        "value": "350ms",
+        "purpose": "Content entrance, section transitions."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "700px"
+      },
+      {
+        "name": "comfortable",
+        "value": "1100px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Definition Card",
+      "kind": "card",
+      "refersTo": "definition-card",
+      "description": "Formal mathematical definition. Paper surface with stamp shadow and offset tag label.",
+      "html": "<div class=\"ds-def-card\">\n  <div class=\"ds-def-tag\">Definition 1</div>\n  <div class=\"ds-def-title\"><em>p</em>-group</div>\n  <div class=\"ds-def-body\">\n    <p>A finite group G is a <span class=\"ds-hl-p\">p-group</span> if its order is a power of p.</p>\n  </div>\n</div>",
+      "css": ".ds-def-card {\n  background: #fbf8f3;\n  border: 1px solid #2a221c;\n  padding: 28px 32px;\n  margin: 24px 0;\n  position: relative;\n  box-shadow: 4px 4px 0 #2a221c;\n  border-radius: 0;\n}\n.ds-def-tag {\n  position: absolute;\n  top: -11px;\n  left: 24px;\n  background: #1a1612;\n  color: #fbf8f3;\n  padding: 3px 14px;\n  font-family: 'JetBrains Mono', ui-monospace, monospace;\n  font-size: 10px;\n  font-weight: 700;\n  letter-spacing: 0.2em;\n  text-transform: uppercase;\n  border-radius: 0;\n}\n.ds-def-title {\n  font-family: 'Fraunces', Georgia, serif;\n  font-style: italic;\n  font-size: 22px;\n  font-weight: 500;\n  margin-bottom: 10px;\n  color: #c44536;\n}\n.ds-def-body {\n  font-family: 'Fraunces', Georgia, serif;\n  font-size: 16px;\n  line-height: 1.65;\n}\n.ds-def-body p {\n  max-width: none;\n  margin-bottom: 10px;\n}\n.ds-hl-p {\n  color: #c44536;\n  font-weight: 700;\n}"
+    },
+    {
+      "name": "Theorem Block",
+      "kind": "card",
+      "refersTo": "theorem-block",
+      "description": "Dark theorem statement. Ink background, Paper text, offset border behind.",
+      "html": "<div class=\"ds-thm\">\n  <div class=\"ds-thm-tag\">FIRST SYLOW THEOREM</div>\n  <div class=\"ds-thm-title\">Existence of <em>p</em>-subgroups</div>\n  <div class=\"ds-thm-body\">\n    <p>Let G be a finite group and p a prime...</p>\n  </div>\n</div>",
+      "css": ".ds-thm {\n  background: #1a1612;\n  color: #fbf8f3;\n  padding: 32px 36px;\n  margin: 32px 0;\n  position: relative;\n  border-radius: 2px;\n}\n.ds-thm::before {\n  content: \"\";\n  position: absolute;\n  top: 8px;\n  left: 8px;\n  right: -8px;\n  bottom: -8px;\n  border: 1px solid #2a221c;\n  z-index: -1;\n}\n.ds-thm-tag {\n  font-family: 'JetBrains Mono', ui-monospace, monospace;\n  font-size: 10px;\n  font-weight: 700;\n  letter-spacing: 0.3em;\n  color: #d4a017;\n  margin-bottom: 6px;\n}\n.ds-thm-title {\n  font-family: 'Fraunces', Georgia, serif;\n  font-size: 26px;\n  font-style: italic;\n  font-weight: 500;\n  margin-bottom: 14px;\n}\n.ds-thm-body {\n  font-size: 16px;\n  line-height: 1.6;\n}\n.ds-thm-body p {\n  max-width: none;\n}\n.ds-thm-body ol {\n  padding-left: 24px;\n  margin-top: 8px;\n}\n.ds-thm-body li {\n  margin-bottom: 8px;\n}"
+    },
+    {
+      "name": "Intuition Box",
+      "kind": "card",
+      "refersTo": "intuition-box",
+      "description": "Informal intuition, warm-toned, Gilt accent. Diagonal gradient bg with left border.",
+      "html": "<div class=\"ds-intuition\">\n  <p>A p-group is a group made entirely of the prime p. This rigidity gives remarkable internal structure.</p>\n</div>",
+      "css": ".ds-intuition {\n  background: linear-gradient(135deg, rgba(212,160,23,0.08), rgba(196,69,54,0.04));\n  border-left: 4px solid #d4a017;\n  padding: 22px 28px;\n  margin: 24px 0;\n  font-style: italic;\n  font-size: 17px;\n  font-family: 'Fraunces', Georgia, serif;\n  line-height: 1.65;\n  color: #1a1612;\n  border-radius: 0;\n}\n.ds-intuition::before {\n  content: \"INTUITION\";\n  display: block;\n  font-family: 'JetBrains Mono', ui-monospace, monospace;\n  font-style: normal;\n  font-size: 10px;\n  font-weight: 700;\n  letter-spacing: 0.25em;\n  color: #d4a017;\n  margin-bottom: 8px;\n  text-transform: uppercase;\n}"
+    },
+    {
+      "name": "Proof Sketch",
+      "kind": "card",
+      "refersTo": "definition-card",
+      "description": "Provisional argument. Dashed border, muted label. Signals work-in-progress, not finished proof.",
+      "html": "<div class=\"ds-sketch\">\n  <div class=\"ds-sketch-tag\">PROOF SKETCH</div>\n  <p>The standard argument proceeds by induction on |G|...</p>\n</div>",
+      "css": ".ds-sketch {\n  border: 1px dashed #6b5d4f;\n  padding: 18px 24px;\n  margin: 16px 0;\n  font-size: 15px;\n  background: rgba(251,248,243,0.4);\n  font-family: 'Fraunces', Georgia, serif;\n  line-height: 1.65;\n  color: #1a1612;\n  border-radius: 0;\n}\n.ds-sketch-tag {\n  font-family: 'JetBrains Mono', ui-monospace, monospace;\n  font-size: 10px;\n  font-weight: 700;\n  letter-spacing: 0.25em;\n  color: #6b5d4f;\n  margin-bottom: 6px;\n  text-transform: uppercase;\n}\n.ds-sketch p {\n  max-width: none;\n  font-size: 15px;\n}"
+    },
+    {
+      "name": "Interactive Panel",
+      "kind": "card",
+      "refersTo": "definition-card",
+      "description": "Container for interactive content. Paper bg, dashed header separator. Signals controllable region.",
+      "html": "<div class=\"ds-panel\">\n  <div class=\"ds-panel-header\">\n    <div class=\"ds-panel-title\">Sylow data</div>\n    <div class=\"ds-panel-tag\">interactive</div>\n  </div>\n  <p style=\"font-size:14px;margin-bottom:8px;\">Choose an order:</p>\n  <div class=\"ds-num-picker\">\n    <button class=\"ds-num-btn\">15</button>\n    <button class=\"ds-num-btn ds-num-btn-active\">60</button>\n  </div>\n</div>",
+      "css": ".ds-panel {\n  background: #fbf8f3;\n  border: 1px solid #2a221c;\n  padding: 28px;\n  margin: 32px 0;\n  border-radius: 2px;\n  box-shadow: 6px 6px 0 rgba(26,22,18,0.08);\n}\n.ds-panel-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: baseline;\n  border-bottom: 1px dashed #2a221c;\n  padding-bottom: 12px;\n  margin-bottom: 20px;\n}\n.ds-panel-title {\n  font-family: 'Fraunces', Georgia, serif;\n  font-style: italic;\n  font-size: 22px;\n  color: #1a1612;\n}\n.ds-panel-tag {\n  font-family: 'JetBrains Mono', ui-monospace, monospace;\n  font-size: 10px;\n  letter-spacing: 0.2em;\n  text-transform: uppercase;\n  color: #6b5d4f;\n}\n.ds-num-picker {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 6px;\n  margin: 16px 0 20px;\n}\n.ds-num-btn {\n  font-family: 'JetBrains Mono', ui-monospace, monospace;\n  font-size: 14px;\n  font-weight: 500;\n  padding: 8px 14px;\n  background: #f5f1ea;\n  border: 1px solid #2a221c;\n  cursor: pointer;\n  transition: all 0.18s cubic-bezier(0.22, 0.68, 0.35, 1.0);\n  color: #1a1612;\n  border-radius: 0;\n}\n.ds-num-btn:hover {\n  background: #e8e1d4;\n  transform: translateY(-1px);\n}\n.ds-num-btn-active {\n  background: #1a1612;\n  color: #fbf8f3;\n  transform: translateY(-1px);\n  box-shadow: 2px 2px 0 #c44536;\n}"
+    },
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ink-on-paper monospaced button. Presses in on active, Ember shadow on active state.",
+      "html": "<button class=\"ds-btn-primary\">12</button>",
+      "css": ".ds-btn-primary {\n  font-family: 'JetBrains Mono', ui-monospace, monospace;\n  font-size: 14px;\n  font-weight: 500;\n  padding: 8px 14px;\n  background: #f5f1ea;\n  color: #1a1612;\n  border: 1px solid #2a221c;\n  cursor: pointer;\n  transition: all 0.18s cubic-bezier(0.22, 0.68, 0.35, 1.0);\n  border-radius: 0;\n}\n.ds-btn-primary:hover {\n  background: #e8e1d4;\n  transform: translateY(-1px);\n}\n.ds-btn-primary:active, .ds-btn-primary.ds-btn-primary-active {\n  background: #1a1612;\n  color: #fbf8f3;\n  transform: translateY(-1px);\n  box-shadow: 2px 2px 0 #c44536;\n}\n.ds-btn-primary:focus-visible {\n  outline: 2px solid #c44536;\n  outline-offset: 2px;\n}"
+    },
+    {
+      "name": "Example Box",
+      "kind": "card",
+      "refersTo": "definition-card",
+      "description": "Worked example. Moss-tinted background with Moss left border. Stamped label in Moss.",
+      "html": "<div class=\"ds-example\">\n  <div class=\"ds-example-tag\">Example 1 — Inside S₄</div>\n  <p>The symmetric group S₄ has order 24 = 2³ · 3.</p>\n</div>",
+      "css": ".ds-example {\n  background: rgba(45,93,61,0.06);\n  border-left: 4px solid #2d5d3d;\n  padding: 20px 26px;\n  margin: 20px 0;\n  color: #1a1612;\n  font-family: 'Fraunces', Georgia, serif;\n  line-height: 1.65;\n  border-radius: 0;\n}\n.ds-example-tag {\n  font-family: 'JetBrains Mono', ui-monospace, monospace;\n  font-size: 10px;\n  font-weight: 700;\n  letter-spacing: 0.25em;\n  color: #2d5d3d;\n  margin-bottom: 6px;\n  text-transform: uppercase;\n}\n.ds-example p {\n  max-width: none;\n}"
+    },
+    {
+      "name": "Chapter Mark",
+      "kind": "custom",
+      "refersTo": "label",
+      "description": "Section opener label: mono, uppercase, track-spaced, Ember color, followed by a decorative rule line.",
+      "html": "<div class=\"ds-chapter-mark\">Chapter III · Theorem I</div>",
+      "css": ".ds-chapter-mark {\n  font-family: 'JetBrains Mono', ui-monospace, monospace;\n  font-size: 11px;\n  font-weight: 700;\n  letter-spacing: 0.25em;\n  text-transform: uppercase;\n  color: #c44536;\n  margin-bottom: 8px;\n  display: flex;\n  align-items: center;\n  gap: 12px;\n}\n.ds-chapter-mark::after {\n  content: \"\";\n  flex: 1;\n  height: 1px;\n  background: #2a221c;\n  opacity: 0.3;\n}"
+    },
+    {
+"name": "Masthead",
+      "kind": "custom",
+      "refersTo": "display",
+      "description": "Page header with double-rule border, meta line, Display title, and subtitle. Paper background.",
+      "html": "<header class=\"ds-masthead\">\n  <div class=\"ds-masthead-top\">\n    <span>Vol. V — Group Theory</span>\n    <span>No. 06 / Sylow Edition</span>\n    <span>Pr. Tomás</span>\n  </div>\n  <h1 class=\"ds-masthead-title\">The <em>p</em>-Group &amp; the Three<br><em>Sylow</em> Theorems</h1>\n  <p class=\"ds-masthead-sub\">— a structural census of finite groups, prime by prime —</p>\n  <div class=\"ds-masthead-meta\">\n    <span>Definitions</span>\n    <span>Theorems</span>\n    <span>Worked Examples</span>\n  </div>\n</header>",
+      "css": ".ds-masthead {\n  border-bottom: 3px double #2a221c;\n  padding: 24px 6vw 18px;\n  background: #fbf8f3;\n  position: relative;\n}\n.ds-masthead-top {\n  display: flex;\n  justify-content: space-between;\n  font-family: 'JetBrains Mono', ui-monospace, monospace;\n  font-size: 11px;\n  letter-spacing: 0.15em;\n  text-transform: uppercase;\n  color: #6b5d4f;\n  border-bottom: 1px solid #2a221c;\n  padding-bottom: 10px;\n  margin-bottom: 18px;\n}\n.ds-masthead-title {\n  font-family: 'Fraunces', Georgia, serif;\n  font-weight: 300;\n  font-size: clamp(48px, 9vw, 110px);\n  line-height: 0.92;\n  letter-spacing: -0.04em;\n  text-align: center;\n}\n.ds-masthead-title em {\n  font-style: italic;\n  font-weight: 500;\n  color: #c44536;\n}\n.ds-masthead-sub {\n  text-align: center;\n  margin-top: 14px;\n  font-style: italic;\n  font-size: 18px;\n  color: #6b5d4f;\n  font-weight: 400;\n  font-family: 'Fraunces', Georgia, serif;\n}\n.ds-masthead-meta {\n  display: flex;\n  justify-content: center;\n  gap: 32px;\n  margin-top: 18px;\n  font-family: 'JetBrains Mono', ui-monospace, monospace;\n  font-size: 11px;\n  letter-spacing: 0.1em;\n  text-transform: uppercase;\n}\n.ds-masthead-meta span::before {\n  content: \"§ \";\n  color: #c44536;\n}"
+    },
+    {
+      "name": "Math Display",
+      "kind": "custom",
+      "refersTo": "math",
+      "description": "KaTeX-rendered display math. Centered block with 12px vertical margin, 1em font-size matching Body. Accessible alt text.",
+      "html": "<div class=\"ds-math-display\" aria-label=\"|G| = p to the n times m, where gcd of p and m equals 1\">$$|G| = p^n \\cdot m \\quad \\text{where } \\gcd(p, m) = 1$$</div>",
+      "css": ".ds-math-display {\n  margin: 12px 0;\n  text-align: center;\n  overflow-x: auto;\n  overflow-y: hidden;\n}\n.ds-math-display .katex {\n  font-size: 1em !important;\n}\n.ds-math-display .katex-display {\n  margin: 0 !important;\n}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Press Room",
+    "overview": "A letterpress workshop where ink meets paper under pressure. Every surface is printed, stamped, or ruled. Shadows are hard offsets cast by physical type. Color arrives as marginalia: a red stamp, a gold label, a green proof mark. The system treats mathematical content as typeset matter: definitions, theorems, examples, and interactions are distinct typographic objects, each with its own physical affordance, not just a different background color on the same card template.\n\nThe Press Room rejects SaaS sterility, Wikipedia flatness, and tutoring-platform friendliness. It rejects the editorial-typographic monoculture (Fraunces italic + mono labels + ruled columns) as a reflex, not as an enemy. The system retains serif warmth and monospaced labels but earns them through structural differentiation: objects have distinct shapes, not just different left-border colors. Hard shadows, offset rules, and stamped labels make the page feel composed on a physical press.",
+    "keyCharacteristics": [
+      "Hard offset shadows imitate letterpress depth, not ambient glow",
+      "Every mathematical object type has a distinct visual grammar",
+      "Color is marginalia, not wallpaper. Ember accents, Moss confirms, Gilt labels, Slate-Blue annotates. Parchment carries.",
+      "Monospaced labels are stamped metadata, not decoration",
+      "Interactive elements recruit the same physical language: active states press in, selected states ink up"
+    ],
+    "rules": [
+      {
+        "name": "The Marginalia Rule",
+        "body": "Accent colors are marginalia, not surfaces. Ember on ≤10% of any surface. Gilt and Slate-Blue on labels and annotations. Moss on confirmations. The background is always a neutral, never an accent.",
+        "section": "colors"
+      },
+      {
+        "name": "The Warm Undertone Rule",
+        "body": "Every neutral is tinted toward hue 60 (warm brown-amber). No pure grays, no blue-grays, no cool undertones.",
+        "section": "colors"
+      },
+      {
+        "name": "The Stamped Label Rule",
+        "body": "Every structural label (chapter mark, definition tag, theorem tag, intuition tag, proof sketch tag) is set in JetBrains Mono 0.6875rem weight 700 with 0.2-0.3em letter-spacing in uppercase. It is a rubber stamp, not quiet caption text.",
+        "section": "typography"
+      },
+      {
+        "name": "The Scale Contrast Rule",
+        "body": "The ratio between Display and Body is ≥6.5:1 in font-size. The ratio between Headline and Title is ≥1.3:1. Flat scales produce template pages; steep scales produce composed pages.",
+        "section": "typography"
+      },
+      {
+        "name": "The Hard Shadow Rule",
+        "body": "No box-shadow with a blur radius greater than 0. All shadows are hard offsets. If depth needs to be softer, reduce opacity on the offset, never add blur. Diffuse shadows belong to SaaS dashboards, not pressed type.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Flat-By-Default Rule",
+        "body": "The base surface (Parchment) carries no shadow. Elevation is applied to objects that are physically distinct: definition cards sit above the page, theorem blocks sit above other cards. Running prose and paragraph text are flat.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Composed Math Rule",
+        "body": "Equations are first-class typographic citizens, not foreign objects pasted into prose. Inline math must sit on the text baseline at x-height, aligned with Fraunces body text. Display math must be vertically spaced with the same rhythm as paragraph breaks (12px margin top/bottom), centered, and never cramped. No pixelated bitmaps, no misaligned fractions, no cramped operators. Math font size matches Body at 1em; never scale math down to fit.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do use hard offset shadows (4px 4px 0 or 6px 6px 0) for definition cards, application cards, and interactive panels. No blur, always offset.",
+      "Do give every mathematical object type a distinct visual grammar. Shape, border treatment, background, and label style should all signal the object type before the reader reads the label.",
+      "Do limit Ember to ≤10% of any surface. It is a stamp, not a paint bucket.",
+      "Do use JetBrains Mono labels at 0.6875rem / 700 weight / 0.2-0.3em letter-spacing / uppercase for all structural metadata.",
+      "Do maintain warm undertones in all neutrals. Parchment, Paper, Soft, and Muted are tinted toward hue 60.",
+      "Do use dashed borders exclusively for proof sketches and panel headers. Dashed = provisional or interactive, solid = established.",
+      "Do vary spacing between sections (90px margin) for rhythm.",
+      "Do cap prose line length at 65-75ch. Mathematical objects may exceed this.",
+      "Do render all mathematical notation via KaTeX (or MathJax 3 fallback). Inline math at 1em aligned to Body baseline. Display math centered with 12px vertical margin. Every equation carries accessible alt text. No pixelated bitmaps, no baseline misalignment, no shrunk font-size."
+    ],
+    "donts": [
+      "Don't use side-stripe borders greater than 1px as a colored accent on cards, list items, callouts, or alerts. The Intuition and Example boxes use 4px left borders as structural identity marks tied to their object type.",
+      "Don't use gradient text (background-clip: text with gradient). Use weight and size for emphasis.",
+      "Don't use glassmorphism (backdrop-blur, semi-transparent backgrounds) as a default surface treatment.",
+      "Don't create hero-metric templates (big number, small label, supporting stats, gradient accent).",
+      "Don't use identical card grids. Definition cards, theorem blocks, intuition boxes, and example boxes are distinct objects.",
+      "Don't use modal dialogs as a first thought.",
+      "Don't produce SaaS aesthetics: no rounded corners > 2px, no pastel backgrounds, no centered icon-heading-text card grids.",
+      "Don't produce Wikipedia-flat aesthetics: no unstyled walls of notation.",
+      "Don't produce tutoring-platform aesthetics: no bubbly UI, no gamification badges, no progress bars.",
+      "Don't use em dashes. Use commas, colons, semicolons, periods, or parentheses.",
+      "Don't render math as images, Unicode hacks, or plain-text approximations. No `a^2 + b^2 = c^2` when KaTeX can typeset it. No shrunk math font-sizes. No baseline misalignment between inline math and surrounding prose."
+    ]
+  }
+}

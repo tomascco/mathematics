@@ -1,0 +1,29 @@
+.intuition {
+  background: linear-gradient(
+    135deg,
+    var(--color-gilt-subtle),
+    var(--color-ember-subtle)
+  );
+  border-left: 4px solid var(--color-gilt);
+  padding: 22px 28px;
+  margin: 24px 0;
+  font-style: italic;
+  font-size: var(--size-body);
+}
+
+.intuition-tag {
+  font-family: var(--font-label);
+  font-style: normal;
+  font-size: var(--size-label);
+  letter-spacing: var(--tracking-label);
+  color: var(--color-gilt-text);
+  margin-bottom: 8px;
+  font-weight: var(--weight-label);
+  text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+  .intuition {
+    padding: 16px 14px;
+  }
+}

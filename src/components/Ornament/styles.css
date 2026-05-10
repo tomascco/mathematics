@@ -1,0 +1,7 @@
+.ornament {
+  text-align: center;
+  color: var(--color-ember);
+  font-size: var(--size-title-lg);
+  margin: 50px 0;
+  letter-spacing: 0.5em;
+}

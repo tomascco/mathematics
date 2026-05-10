@@ -1,0 +1,16 @@
+.footer {
+  border-top: 3px double var(--color-rule);
+  margin-top: 60px;
+  padding: 30px 6vw;
+  text-align: center;
+  font-family: var(--font-label);
+  font-size: var(--size-label);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  background: var(--color-paper);
+}
+
+.footer .accent {
+  color: var(--color-ember);
+}

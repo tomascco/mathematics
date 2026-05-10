@@ -1,0 +1,49 @@
+.prop {
+  background: var(--color-paper);
+  border: 1px solid var(--color-rule);
+  padding: 24px 28px;
+  margin: 28px 0;
+  position: relative;
+}
+
+.prop-tag {
+  position: absolute;
+  top: -10px;
+  left: 22px;
+  padding: 2px 12px;
+  background: var(--color-paper);
+  color: var(--color-ember-text);
+  font-family: var(--font-label);
+  font-size: var(--size-label);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  font-weight: var(--weight-label);
+}
+
+.prop-title {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: var(--size-title);
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: var(--color-ink);
+}
+
+.prop-body {
+  font-size: var(--size-body);
+  line-height: 1.6;
+}
+
+.prop-body p {
+  max-width: none;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .prop {
+    padding: 18px 16px;
+  }
+  .prop-tag {
+    left: 14px;
+  }
+}

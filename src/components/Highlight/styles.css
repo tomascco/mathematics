@@ -1,0 +1,24 @@
+.hl-prime {
+  color: var(--color-ember-text);
+  font-weight: 700;
+}
+
+.hl-moss {
+  color: var(--color-moss);
+  font-weight: 700;
+}
+
+.hl-slate {
+  color: var(--color-slate-blue);
+  font-weight: 700;
+}
+
+.hl-gilt {
+  color: var(--color-gilt);
+  font-weight: 700;
+}
+
+.hl-ink {
+  color: var(--color-ink);
+  font-weight: 700;
+}

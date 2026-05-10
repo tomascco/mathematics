@@ -1,0 +1,29 @@
+.katex {
+  font-size: var(--size-math) !important;
+}
+
+.katex-display {
+  margin: 12px 0 !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 4px 0;
+}
+
+.katex-display > .katex {
+  text-align: center;
+}
+
+.katex .base {
+  vertical-align: baseline;
+}
+
+.katex .mord,
+.katex .mbin,
+.katex .mrel,
+.katex .mop,
+.katex .mopen,
+.katex .mclose,
+.katex .mpunct,
+.katex .minner {
+  color: inherit;
+}

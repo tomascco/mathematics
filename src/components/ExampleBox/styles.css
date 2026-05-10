@@ -1,0 +1,20 @@
+.example {
+  background: var(--color-moss-subtle);
+  border-left: 4px solid var(--color-moss);
+  padding: 20px 26px;
+  margin: 20px 0;
+}
+
+.example-tag {
+  font-family: var(--font-label);
+  font-size: var(--size-label);
+  letter-spacing: var(--tracking-label);
+  color: var(--color-moss);
+  margin-bottom: 6px;
+  font-weight: var(--weight-label);
+  text-transform: uppercase;
+}
+
+.example p {
+  max-width: none;
+}

@@ -1,0 +1,47 @@
+.lemma {
+  border-top: 1px solid var(--color-rule);
+  border-bottom: 1px solid var(--color-rule);
+  padding: 16px 0;
+  margin: 24px 0;
+  background: transparent;
+}
+
+.lemma-head {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin-bottom: 8px;
+}
+
+.lemma-tag {
+  font-family: var(--font-label);
+  font-size: var(--size-label);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  font-weight: var(--weight-label);
+  color: var(--color-muted);
+  flex-shrink: 0;
+}
+
+.lemma-title {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: var(--size-title-sm);
+  font-weight: 500;
+  color: var(--color-ink);
+  line-height: 1.25;
+}
+
+.lemma-body {
+  font-size: var(--size-small);
+  line-height: 1.6;
+}
+
+.lemma-body p {
+  max-width: none;
+  margin-bottom: 8px;
+}
+
+.lemma-body p:last-child {
+  margin-bottom: 0;
+}

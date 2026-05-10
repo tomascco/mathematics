@@ -1,0 +1,8 @@
+.lede {
+  font-size: var(--size-lede);
+  font-style: italic;
+  color: var(--color-muted);
+  margin-bottom: 28px;
+  max-width: 60ch;
+  line-height: var(--leading-lede);
+}

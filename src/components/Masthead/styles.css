@@ -1,0 +1,65 @@
+.masthead {
+  border-bottom: 3px double var(--color-rule);
+  padding: 24px 6vw 18px;
+  background: var(--color-paper);
+  position: relative;
+}
+
+.masthead-top {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-label);
+  font-size: var(--size-label);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  border-bottom: 1px solid var(--color-rule);
+  padding-bottom: 10px;
+  margin-bottom: 18px;
+}
+
+.masthead-title {
+  font-family: var(--font-display);
+  font-weight: var(--weight-display);
+  font-size: var(--size-display);
+  line-height: var(--leading-display);
+  letter-spacing: var(--tracking-display);
+  text-align: center;
+  font-variation-settings: "opsz" 144;
+}
+
+.masthead-title em {
+  font-style: italic;
+  font-weight: 500;
+  color: var(--color-ember);
+}
+
+.masthead-title .small {
+  font-size: 0.5em;
+  vertical-align: super;
+}
+
+.masthead-sub {
+  text-align: center;
+  margin-top: 14px;
+  font-style: italic;
+  font-size: var(--size-subtitle);
+  color: var(--color-muted);
+  font-weight: 400;
+}
+
+.masthead-meta {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 18px;
+  font-family: var(--font-label);
+  font-size: var(--size-label);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.masthead-meta span::before {
+  content: "\00a7 ";
+  color: var(--color-ember-text);
+}

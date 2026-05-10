@@ -1,0 +1,72 @@
+:root {
+  --color-ember: oklch(54% 0.17 27);
+  --color-moss: oklch(42% 0.08 155);
+  --color-gilt: oklch(62% 0.12 85);
+  --color-slate-blue: oklch(44% 0.10 265);
+  --color-ink: oklch(12% 0.02 60);
+  --color-parchment: oklch(96% 0.005 80);
+  --color-paper: oklch(98% 0.004 80);
+  --color-soft: oklch(90% 0.008 75);
+  --color-muted: oklch(42% 0.02 60);
+  --color-rule: oklch(16% 0.02 60);
+
+  --color-ember-text: oklch(45% 0.17 27);
+  --color-gilt-text: oklch(42% 0.10 85);
+  --color-ember-subtle: oklch(96% 0.015 27);
+  --color-moss-subtle: oklch(94% 0.02 155);
+  --color-gilt-subtle: oklch(90% 0.035 85);
+  --color-slate-blue-subtle: oklch(92% 0.015 265);
+  --color-surface-faint: oklch(99% 0.002 80 / 0.4);
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Fraunces", Georgia, serif;
+  --font-label: "JetBrains Mono", ui-monospace, monospace;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --font-math: "KaTeX_Main", "Times New Roman", serif;
+
+  --size-display: clamp(2.5rem, 9vw, 7rem);
+  --size-headline: clamp(2rem, 5vw, 3.25rem);
+  --size-title: 1.5rem;
+  --size-body: 1.0625rem;
+  --size-lede: 1.375rem;
+  --size-label: 0.6875rem;
+  --size-mono: 0.875rem;
+  --size-math: 1em;
+
+  --size-title-lg: 1.625rem;
+  --size-title-sm: 1.25rem;
+  --size-small: 0.9375rem;
+  --size-subtitle: 1.125rem;
+  --size-caption: 0.875rem;
+
+  --leading-display: 0.92;
+  --leading-headline: 1.05;
+  --leading-title: 1.3;
+  --leading-body: 1.65;
+  --leading-lede: 1.5;
+  --leading-mono: 1.8;
+
+  --tracking-display: -0.04em;
+  --tracking-headline: -0.025em;
+  --tracking-title: -0.01em;
+  --tracking-label: 0.25em;
+
+  --weight-display: 300;
+  --weight-headline: 400;
+  --weight-title: 500;
+  --weight-body: 400;
+  --weight-label: 700;
+  --weight-mono: 500;
+
+  --radius-none: 0px;
+  --radius-sm: 2px;
+
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-section: 90px;
+
+  --measure: 70ch;
+}

@@ -1,0 +1,23 @@
+.headline {
+  font-family: var(--font-display);
+  font-weight: var(--weight-headline);
+  font-size: var(--size-headline);
+  line-height: var(--leading-headline);
+  letter-spacing: var(--tracking-headline);
+  margin-bottom: 24px;
+  font-variation-settings: "opsz" 144;
+}
+
+.headline em {
+  font-style: italic;
+  color: var(--color-ember);
+}
+
+.title-heading {
+  font-family: var(--font-display);
+  font-weight: var(--weight-title);
+  font-size: var(--size-title);
+  margin-top: 36px;
+  margin-bottom: 12px;
+  letter-spacing: var(--tracking-title);
+}

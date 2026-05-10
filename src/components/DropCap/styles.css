@@ -1,0 +1,10 @@
+.dropcap::first-letter {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 5em;
+  float: left;
+  line-height: 0.85;
+  margin: 6px 10px -4px 0;
+  color: var(--color-ember);
+  font-style: italic;
+}
